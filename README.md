@@ -7,7 +7,7 @@ Welcome issueeeeeeeeeeeees!!!
 
 ## How to eat?
 Just tell Claude Code:
-> Please install Skills from github.com/
+> Please install Skills from github.com/OldGlycine/oldglycine-skills
 
 ## Skills
 1. oldglycine-paper-add-citations
