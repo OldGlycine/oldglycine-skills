@@ -2,7 +2,7 @@
 name: oldglycine-paper-add-citations
 description: Automatically adds relevant academic references to research papers. Supports Overleaf project directories, extracts keywords from TeX files, searches Google Scholar for relevant papers, adds BibTeX entries to the project's bib file, and inserts citation markers in key sections.
 metadata: 
-  versions: 1.0
+  versions: 1.0.0
 ---
 # Paper Reference Adder Skill
 
