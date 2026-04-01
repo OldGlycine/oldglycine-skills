@@ -7,7 +7,7 @@ Automatically adds relevant academic references to research papers. Supports Ove
 2. Run the script with the required parameters
 
 ## Input Parameters
-- `project_dir`: Path to the Overleaf project directory (default: ./FENAS_ACM_Submission)
+- `project_dir`: Path to the Overleaf project directory (default: ./)
 - `num_references`: Number of references to find (default: 10)
 - `output_report`: Path for the ADD.MD report (default: ./ADD.MD)
 
