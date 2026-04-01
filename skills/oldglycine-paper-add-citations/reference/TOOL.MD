@@ -93,7 +93,7 @@ def add_to_bib(bib_file, papers):
 
 # Main function
 def main():
-    project_dir = '' # Need user's input
+    project_dir = './' # Need user's input
     num_references = 10
     output_report = './ADD.MD'
 
