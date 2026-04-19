@@ -3,19 +3,20 @@ oldglycine's little skills
 
 Now in demo!(4/1 2026)
 
+欢迎issue和意见！
 Welcome issueeeeeeeeeeeees!!!
 
-## How to eat?
-Just tell Claude Code:
+## 食用方法
+告诉Agent"帮我安装skills就行"
 > Please install Skills from github.com/OldGlycine/oldglycine-skills
 
 ## Skills
-1. oldglycine-paper-add-citations
+1. oldglycine-paper-reference-adder
 - Step1. cd /path/to/your/workspace 
-- Step2. Start your agent
-- Step3. Tell the agent 
-    1. **input** to locate the folder where your LaTeX file for the paper is stored
-    ```Currently, the recommended folder structure is
+- Step2. 开启Agent
+- Step3. 告诉Agent如下信息
+    1. **input** 定位到哪个文件夹存放了你的论文文件
+    ```目前推荐你的论文这么写，当然，Skill自己会引导Agent尝试分析论文结构
         folder/
         ├── custom.bib              # Citations
         ├── main.tex                # Concat all tex in section/
@@ -28,13 +29,9 @@ Just tell Claude Code:
             ├── 5_conclusion.tex
             └── ...
     ```
-    2. **num_references** to set the number of citations (default 10)
-    3. **output** to set the path for the ADD.MD report
-    and start citation adding.
+    2. **num_references** 添加引用数目 (default 10)
+    3. **output** ADD.MD的位置，这里记录了"引用添加位置" 和 "引用文献"，方便追踪
 
-- Current advantages: 
-    - Free for Google Scholar API.
-    - Simple skill.
-- Current drawbacks:
-    - Currently, it can only add citations in the @article format.
-    - I'm not entirely sure whether using "scholarly" to access the papers will trigger any security risk control measures by Google Scholar.
+- 当前优势: 
+    - 无需 Google Scholar API.
+    - Skill简单，token消耗较少.
